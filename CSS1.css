@@ -1,0 +1,13 @@
+
+h1 {
+color: red;
+font-size: 300%;
+border-style: solid dashed;
+border: 1px black;
+
+
+h2, h3 {
+color: blue;
+font-size: 200%
+
+}
