@@ -4,10 +4,13 @@ color: red;
 font-size: 300%;
 border-style: solid dashed;
 border: 1px black;
+margin-left: 5%;
+text-align: center;
 
 
 h2, h3 {
 color: blue;
-font-size: 200%
+font-size: 200%;
+margin-left: 5%;
 
 }
