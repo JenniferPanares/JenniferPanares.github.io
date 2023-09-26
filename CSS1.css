@@ -7,10 +7,9 @@ body {
 h1 {
 color: red;
 font-size: 300%;
-border-style: solid dashed;
 border: 1px black;
 text-align: center;
-
+}
 
 h2 {
 color: blue;
