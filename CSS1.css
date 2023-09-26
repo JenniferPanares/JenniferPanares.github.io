@@ -1,6 +1,7 @@
 body {
 	background-image: url("./bg_image.jpg");
 	border-style: 5px dotted black;
+	margin: 5%;
 	}
 
 h1 {
@@ -8,13 +9,11 @@ color: red;
 font-size: 300%;
 border-style: solid dashed;
 border: 1px black;
-margin-left: 5%;
 text-align: center;
 
 
 h2 {
 color: blue;
 font-size: 200%;
-margin-left: 5%;
 
 }
