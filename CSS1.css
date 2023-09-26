@@ -1,6 +1,6 @@
 body {
 	background-image: url("./bg_image.jpg");
-	border-style: 5px dotted black;
+	border: 5px dotted black;
 	margin: 5%;
 	}
 
