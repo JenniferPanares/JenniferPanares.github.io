@@ -1,18 +1,17 @@
 body {
 	background-image: url("./bg_image.jpg");
-	border: 5px dotted black;
-	margin: 5%;
+	border:  2px dotted black;
+	margin: 2%;
+	padding: 2%;
 	}
 
 h1 {
 color: red;
 font-size: 300%;
-border: 1px black;
 text-align: center;
 }
 
 h2 {
 color: blue;
-font-size: 200%;
-
+font-size: 180%;
 }
