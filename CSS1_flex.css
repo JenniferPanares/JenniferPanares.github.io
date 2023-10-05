@@ -1,0 +1,44 @@
+body {
+    margin: 0;
+	background-image: url('Background_front.jpg');
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-position: center;
+	background-size: 100% 100%;
+	
+	
+
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+    align-items: stretch;
+}
+
+a {
+    flex: 1 50px;
+}
+
+a:link,
+a:visited {
+    color: #BC4B00;
+    font-size: x-large;
+	font-weight: bold;
+	font-family: Arial;
+}
+
+
+div {
+    padding: 0.5rem;
+    background-color: white;
+    border: 5px solid #7F0037;
+    text-align: center;
+	opacity: 0.8;
+	
+}
+
+div:hover {
+    background-color: #B69F00;
+    color: #FFE18E;
+}
