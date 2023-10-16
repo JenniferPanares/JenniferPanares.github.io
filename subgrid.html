@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en-CA">
+<head>
+	<title>Grid Sample</title>
+	<meta charset="UTF-8">
+	<style>
+	.box-container {
+	  display: grid;
+	  max-width: 450px;
+	  height: 400px;
+	  margin: 5% auto;
+	  padding: 10px;
+	  gap: 10px;
+	  background-color: white;
+	  grid-template-columns: 1fr 1fr 1fr 1fr;
+	  grid-template-rows: 1fr 1fr 1fr 1fr;
+	  column-gap: 10px;
+	 }
+
+	.box1 {
+	  grid-column-start: 1;
+	  grid-column-end: 3;
+	  grid-row-start: 1;
+	  grid-row-end: 3;
+	  border: 5px solid green;
+	  border-radius: 20px;
+	 }
+
+	.box2 {
+	  grid-column-start: 3;
+	  grid-column-end: 4;
+	  grid-row-start: 1;
+	  grid-row-end: 3;
+	  border: 5px solid yellow;
+	  border-radius: 20px;
+	}
+
+	.box3 {
+	  grid-column-start: 4;
+	  grid-column-end: 5;
+	  grid-row-start: 2;
+	  grid-row-end: 3;
+	  border: 5px solid orange;
+	  border-radius: 20px;
+	}
+
+
+	.box1a {
+	  grid-column-start: 3;
+	  grid-column-end: 5;
+	  grid-row-start: 3;
+	  grid-row-end: 5;
+	  border: 5px solid green;
+	  border-radius: 20px; 
+	}
+
+	.box2a {
+	  grid-column-start: 1;
+	  grid-column-end: 3;
+	  grid-row-start: 3;
+	  grid-row-end: 4;
+	  border: 5px solid orange;
+	  border-radius: 20px;
+	}
+
+	.box3a {
+	  grid-column-start: 1;
+	  grid-column-end: 2;
+	  grid-row-start: 4;
+	  grid-row-end: 5;
+	  border: 5px solid yellow;
+	  border-radius: 20px;
+	}
+
+	</style>
+</head>
+<body>
+
+
+<div class="box-container">
+<!-- row 1 -->
+  <div class="box1"></div>
+  <div class="box2"></div>
+  <div class="box3"></div>
+<!-- row 2 -->  
+  <div class="box2a"></div>
+  <div class="box3a"></div>
+  <div class="box1a"></div>
+
+</div>
+
+
+</body>
+</html>
+
+
